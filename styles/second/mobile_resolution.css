@@ -1,0 +1,143 @@
+@media screen and (min-width : 320px) {
+    @font-face {
+        font-family: 'Montserrat';
+        src: local('Montserrat') url(/fonts/montserrat/Montserrat-Regular.woff2) format('woff2');
+        font-weight: 400;
+        font-display: swap;
+        font-style: normal;
+    }
+
+    @font-face {
+        font-family: 'Montserrat';
+        src: local('Montserrat') url(/fonts/montserrat/Montserrat-SemiBold.woff2) format('woff2');
+        font-weight: 600;
+        font-display: swap;
+        font-style: normal;
+    }
+
+    @font-face {
+        font-family: 'Josephin Sans';
+        src: local('Josefin Sans') url(/fonts/josephin-sans/JosefinSans.woff2) format('woff2');
+        font-weight: 600;
+        font-display: swap;
+        font-style: normal;
+    }
+
+    @font-face {
+        font-family: 'Josefin Sans';
+        src: local('Josefin Sans') url(/fonts/josefin-sans/JosefinSans.woff2) format('woff2');
+        font-weight: 700;
+        font-display: swap;
+        font-style: normal;
+    }
+
+    @font-face {
+        font-family: 'Josefin Sans';
+        src: local('Josefin Sans') url(/fonts/josefin-sans/JosefinSans.woff2) format('woff2');
+        font-weight: 500;
+        font-display: swap;
+        font-style: normal;
+    }
+    .logo{
+        width: 80px;
+        height: 70px;
+        background: url(../img/png/logo\ 2.png);
+    }
+    .body{
+        width: 100%;
+        height: 667px;
+        background: linear-gradient(180deg, #10362B 0%, #76CB3C 100%);
+    }
+    .container-for-elements{
+        display: flex;
+        height: 518px;
+        width: 300px;
+        margin-top: 30px;
+        margin-left: 10px;
+        flex-direction: column;
+    }
+    p{
+        margin-bottom: 0px;
+        font-family: 'Josefin Sans', sans-serif;
+        margin-top: 0px;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+        color: #FFF;
+    }
+    div{
+        font-family: 'Montserrat', sans-serif;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        color: #FFF;
+
+    }
+    .text-name__container{
+        display: flex;
+        flex-direction: column;
+        gap: 29px;
+        margin-top: 15px;
+        margin-left: 14px;
+    }
+    .text__name-surname{
+        color: #FFF;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+    }
+    .container__term-and-tariff{
+        display: flex;
+        gap: 38px;
+        margin-top: 29px;
+        margin-left: 17px;
+    }
+    .text__name-of-tarrif{
+        margin-top: 20px;
+        
+    }
+    .text__date-of-term{
+        margin-top: 20px;
+    }
+    .extend-buttom{
+        margin-top: 80px;
+        margin-left: -276px;
+        color: #72C63C;
+    }
+    .container__last-visits{
+        display: flex;
+        flex-direction: column;
+        margin-left: 17px;
+        margin-top: 29px;
+    }
+    .text__last-visit{
+        width: 149px;
+        height: 42px;
+    }
+    .text__date-last-visit{
+        margin-top: 30px;
+        margin-left: 0px;
+    }
+    .container__coaches-trainings{
+        display: flex;
+        flex-direction: column;
+        margin-top: 29px;
+        margin-left: 17px;
+    }
+    .container__names-of-blocks{
+        display: flex;
+        flex-direction: column;
+        gap: 68px;
+    }
+    .container__description{
+        display: flex;
+        flex-direction: column;
+        gap: 97px;
+        position: relative;
+        top: -100px;
+    }
+
+}

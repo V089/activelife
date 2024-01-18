@@ -1,0 +1,69 @@
+@media screen and (min-width : 768px) {
+    .body{
+        height: 829px;
+    }
+    .logo{
+        margin-top: 13px;
+        margin-left: 13px;
+    }
+    .header{
+        height: 83px;
+    }
+    .container-for-elements {
+        width: 605px;
+        height: 512px;
+        margin-top: 58px;
+        margin-left: 93px;
+        flex-direction: column;
+    }
+    .text-name__container {
+        display: flex;
+        flex-direction: column;
+        gap: 41px;
+        margin-top: 0px;
+        margin-left: 0px;
+    }
+    .container__term-and-tariff {
+        display: flex;
+        gap: 73px;
+        margin-top: 72px;
+        margin-left: 0px;
+    }
+    .extend-buttom {
+        margin-top: 46px;
+        margin-left: -75px;
+        color: #72C63C;
+    }
+    .text__last-visit {
+        width: 392px;
+        height: 42px;
+    }
+    .container__last-visits {
+        display: flex;
+        flex-direction: column;
+        margin-left: 0px;
+        margin-top: 75px;
+    }
+    .text__date-last-visit {
+        margin-top: 10px;
+        margin-left: 0px;
+    }
+    .container__coaches-trainings {
+        display: flex;
+        flex-direction: column;
+        margin-top: 72px;
+        margin-left: 0px;
+    }
+    .container__names-of-blocks {
+        display: flex;
+        flex-direction: row;
+        gap: 68px;
+    }
+    .container__description {
+        display: flex;
+        flex-direction: row;
+        gap: 168px;
+        position: relative;
+        top: 20px;
+    }
+}

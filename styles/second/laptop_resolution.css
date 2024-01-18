@@ -1,0 +1,78 @@
+@media screen and (min-width : 1440px) {
+    .body {
+        height: 1236px;
+    }
+    .header {
+        height: 137px;
+    }
+    p{
+        margin-bottom: 0px;
+        font-family: 'Josefin Sans', sans-serif;
+        margin-top: 0px;
+        font-size: 32px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+    }
+    div{
+        font-family: 'Montserrat', sans-serif;
+        font-size: 32px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+
+    }
+    .logo {
+        width: 120px;
+        height: 120px;
+        margin-top: 17px;
+        margin-left: 17px;
+        background: url(../img/png/logo3.png);
+    }
+    .container-for-elements {
+        width: 1150px;
+        height: 933px;
+        margin-top: 0px;
+        margin-left: 15%;
+        flex-direction: column;
+    }
+    .text__name-surname {
+        font-size: 32px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+    }
+    .container__term-and-tariff {
+        display: flex;
+        gap: 182px;
+        margin-top: 172px;
+        margin-left: 0px;
+    }
+    .extend-buttom {
+        margin-top: 55px;
+        margin-left: -140px;
+        color: #72C63C;
+    }
+    .container__last-visits {
+        display: flex;
+        flex-direction: column;
+        margin-left: 0px;
+        margin-top: 172px;
+    }
+    .container__coaches-trainings {
+        margin-top: 172px;
+        margin-left: 0px;
+    }
+    .container__names-of-blocks {
+        gap: 187px;
+    }
+    .container__description {
+        gap: 255px;
+    }
+}
+
+@media screen and (min-width : 1920px) {
+    .body {
+        height: 1180px;
+    }
+}
