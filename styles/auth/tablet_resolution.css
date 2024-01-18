@@ -1,0 +1,50 @@
+@media screen and (min-width : 768px) {
+    .body{
+        height: 672px;
+    }
+    .window{
+        width: 481px;
+        height: 555px;
+        flex-shrink: 0;
+        border-radius: 30px;
+        background: #264710;
+        display: flex;
+        flex-direction: column;
+        margin-left: 148px;
+    }
+    .title{
+        color: #FFF;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+        margin-top: 48px;
+        margin-left: 157px;
+        margin-bottom: 0px;
+    }
+    .place-to-input__container{
+        display: flex;
+        flex-direction: column;
+        margin-top: 58px;
+        margin-left: 56px;
+        gap: 58px;
+    }
+    .place-to-input{
+        width: 368px;
+        height: 60px;
+    }
+    .submit-buttom{
+        width: 169px;
+        height: 58px;
+        margin-top: 70px;
+        margin-left: 156px;
+    }
+    .return-password{
+        margin-top: 3px;
+        margin-left: 236px;
+    }
+    .register{
+        margin-top: 48px;
+        margin-left: 168px;
+    }
+}

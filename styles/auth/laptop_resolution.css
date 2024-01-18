@@ -1,0 +1,71 @@
+@media screen and (min-width : 1440px) {
+    .body{
+        height: 900px;
+    }
+    .logo{
+        width: 120px;
+        height: 120px;
+        background: url(../img/png/logo3.png);
+    }
+    .window{
+        width: 616px;
+        height: 639px;
+        flex-shrink: 0;
+        border-radius: 30px;
+        background: #264710;
+        display: flex;
+        flex-direction: column;
+        margin-left: 412px;
+    }
+    .title{
+        color: #FFF;
+        font-size: 32px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+        margin-top: 38px;
+        margin-left: 196px;
+        margin-bottom: 0px;
+    }
+    .place-to-input__container{
+        display: flex;
+        flex-direction: column;
+        margin-top: 60px;
+        margin-left: 52px;
+        gap: 38px;
+    }
+    .place-to-input{
+        width: 503px;
+        height: 77px;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+    .submit-buttom{
+        width: 240px;
+        height: 84px;
+        margin-top: 66px;
+        margin-left: 188px;
+        font-size: 32px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+    }
+    .return-password{
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        margin-top: 0px;
+        margin-left: 271px;
+    }
+    .register{
+        margin-top: 92px;
+        margin-left: 200px;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+}
